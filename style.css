@@ -23,7 +23,7 @@ body
 	font-size: 1em;
 }
 
-footer a
+nav a, footer a
 {
 	color:black;
 	text-decoration: none;
@@ -52,4 +52,26 @@ footer
 }
 
 
+nav
+{
+	font-size: 1.2em;
+	background-color: #FFFFFF;
+	height: 100px;
+	line-height: 100px;
+	margin-bottom: 15px;
+}
 
+nav ul
+{
+	margin-right: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li
+{
+	list-style: none;
+	text-align: right;
+	margin-right: 15px;
+
+}
