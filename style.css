@@ -2,7 +2,7 @@
 
 #titre
 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-transform: uppercase;
 }
 
@@ -11,9 +11,18 @@ header
 {
 	background-color: #387ab8;
 	width: auto;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
-	line-height: 150px;
+	height: 150px;
 	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header img
+{
+	height: 90px;
 }
 
 
@@ -54,7 +63,7 @@ footer
 
 nav
 {
-	font-size: 1.2em;
+	font-size: 1.8em;
 	background-color: #FFFFFF;
 	height: 100px;
 	line-height: 100px;
