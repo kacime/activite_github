@@ -13,11 +13,17 @@ header
 	width: auto;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
-	height: 150px;
 	margin-bottom: 15px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	padding: 15px 15px;
+}
+
+section
+{
+	width: auto;
 }
 
 header img
@@ -84,3 +90,11 @@ nav li
 	margin-right: 15px;
 
 }
+
+@media screen and (max-width: 767px){	/* On cache le menu pour les mobiles et petits périphériques */
+
+	nav{
+    	display: none;
+    }
+}
+
